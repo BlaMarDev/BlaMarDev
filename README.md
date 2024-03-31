@@ -43,3 +43,8 @@ Here are some ideas to get you started:
 |     3| C++           |
 
 </details>
+
+---
+> If we pull together and commit ourselves, then we can push through anything.
+
+— Mona the Octocat
