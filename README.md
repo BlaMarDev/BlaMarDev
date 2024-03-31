@@ -25,3 +25,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: my English isn't perfect, I'm still learning it.
 
+| Rank | Languages     |
+|-----:|---------------|
+|     1| Python        |
+|     2| C++           |
+|     3| HTML/CSS/JS   |
