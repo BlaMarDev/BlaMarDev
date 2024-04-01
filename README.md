@@ -1,52 +1,72 @@
-<details>
-  <summary>The welcome picture</summary>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-    <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-  </picture>
-</details>
+# A first-level heading 1
+## A second-level heading 1.1
+### A third-level heading 1.1.1
+**This is bold text**
+### A third-level heading 1.1.2
+_This text is italicized_
+## A second-level heading 1.2
+### A third-level heading 1.2.1
+~~This was mistaken text~~  
+**This text is _extremely_ important**  
+***All this text is important***
+--
+This is a <sub>subscript</sub> text  
+This is a <sup>superscript</sup> text
+--
+Text that is not a quote
 
-### Hi there 👋
+> Text that is a quote
 
-## About me
+Use `git status` to list all new or modified files that haven't yet been committed.
 
-My name is Marek Bladowski
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
 
-<!--
-**BlaMarDev/BlaMarDev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+The background color is `#ffffff` for light mode and `#000000` for dark mode.  
+Here are the currently supported color models.  
+ - HEX model `#0969DA`
+ - RGB	model `rgb(9, 105, 218)`
+ - HSL	model	`hsl(212, 92%, 45%)`
 
-Here are some ideas to get you started:
--->
 
-<details open>
-<summary>Short description</summary>
+This site was built using [GitHub Pages](https://pages.github.com/).
 
-- 🔭 I’m currently working on several Python projects.
-- 🌱 I’m currently learning Python, Linux, Git/GitHub.
-- 👯 I’m looking to collaborate on any Python projects.
-- 🤔 I’m looking for help in taking up a new job as a programmer.
-- 💬 Ask me about everything you want.
-- 📫 How to reach me: via GitHub or email.
-- 😄 Pronouns: he/him
-- ⚡ Fun fact: my English isn't perfect, I'm still learning it.
+[First header](https://github.com/BlaMarDev/BlaMarDev/edit/tests/README.md#a-first-level-heading-1)
 
-</details>
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
-<details>
-<summary>My top languages</summary>
-  
-| Rank | Languages     |
-|-----:|---------------|
-|     1| Python        |
-|     2| HTML/CSS/JS   |
-|     3| C++           |
+ First Header  | Second Header 
+ ------------- | ------------- 
+ Content Cell  | Content Cell  
+ Content Cell  | Content Cell  
+ <hr>
 
-</details>
+ | Command | Description |
+| -- | -- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+<hr>
 
----
-> If we pull together and commit ourselves, then we can push through anything.
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+<hr>
 
-— Mona the Octocat
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+<hr>
 
-<!-- TO DO: add more details about me later -->
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
