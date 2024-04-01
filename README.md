@@ -37,3 +37,36 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 [First header](https://github.com/BlaMarDev/BlaMarDev/edit/tests/README.md#a-first-level-heading-1)
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+ First Header  | Second Header 
+ ------------- | ------------- 
+ Content Cell  | Content Cell  
+ Content Cell  | Content Cell  
+ <hr>
+
+ | Command | Description |
+| -- | -- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+<hr>
+
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+<hr>
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+<hr>
+
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
